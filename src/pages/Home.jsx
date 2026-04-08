@@ -4,6 +4,7 @@ import Navbar from '../components/NavBar';
 import MainBanner from '../components/MainBanner';
 import SubBanner from '../components/SubBanner';
 import CuratorStandard from '../components/CuratorStandard';
+import LiveAuction from '../components/LiveAuction';
 
 const Home = () => {
   return (
@@ -17,9 +18,10 @@ const Home = () => {
       </section>
 
       {/* PHẦN C: LIVE AUCTIONS (Placeholder cho thành viên khác) */}
-      <div className="py-20 text-center italic text-gray-400">
-        -- Section Live Auctions (By Team) --
-      </div>
+      <LiveAuction/>
+      {/* <div className="py-20 text-center italic text-gray-400">
+        
+      </div> */}
 
       {/* PHẦN D: THE CURATOR'S STANDARD */}
       <CuratorStandard />
@@ -29,4 +31,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Home
