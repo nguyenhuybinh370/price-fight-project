@@ -1,4 +1,3 @@
-
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 // Import các trang của ông
 import Home from "./pages/Home";
