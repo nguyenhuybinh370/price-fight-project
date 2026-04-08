@@ -8,6 +8,7 @@ export default {
       colors: {
         navy: "#00113A",
         gold: "#FED488",
+        'primary-blue': "#1E3A8A",
         red: {
           light: "#FF524C",
           mid: "#BA1A1A",
