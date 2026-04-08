@@ -10,9 +10,10 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Login />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/register" element={<Register />} />
+        {/* Nếu muốn trang Login hiện ra ngay khi mở web, hãy để path="/" */}
+        <Route path="/" element={<Home />} /> 
+        {/* Hoặc nếu để path="/login", ông phải gõ thêm /login vào thanh địa chỉ */}
+        <Route path="/home" element={<Home />} />
       </Routes>
     </BrowserRouter>
   );
