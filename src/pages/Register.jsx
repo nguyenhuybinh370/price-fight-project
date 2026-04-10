@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { ArrowRight, Lock, Mail, User } from "lucide-react";
-import galleryImage from "../assets/Register.jpg";
+import galleryImage from "../assets/Register2.png";
 
 // Component chính hiển thị toàn bộ giao diện và quản lý dữ liệu form đăng ký.
 const Register = () => {
@@ -77,7 +77,7 @@ const Register = () => {
                     Tạo tài khoản
                   </h1>
                   <p className="mt-2 text-[15px] text-[#6b6b6b]">
-                    Join an exclusive network of global art collectors.
+                    Tham gia đấu giá cùng chúng tôi.
                   </p>
                 </div>
 
@@ -175,7 +175,6 @@ const Register = () => {
                     className="mt-2 flex w-full items-center justify-center gap-2 bg-black px-6 py-4 text-sm font-semibold uppercase tracking-[0.24em] text-white transition hover:bg-[#202020]"
                   >
                     Đăng ký
-                    <ArrowRight className="h-4 w-4" />
                   </button>
                 </form>
 
