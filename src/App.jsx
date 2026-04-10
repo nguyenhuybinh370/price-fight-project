@@ -10,10 +10,13 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        {/* Nếu muốn trang Login hiện ra ngay khi mở web, hãy để path="/" */}
-        <Route path="/" element={<Register/>} /> 
-        {/* Hoặc nếu để path="/login", ông phải gõ thêm /login vào thanh địa chỉ */}
+       {/* Định nghĩa đường dẫn cho từng trang */}
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/forgot-password" element={<ForgotPassword />} />
+        {/* Đường dẫn động cho chi tiết đấu giá (id có thể thay đổi) */}
+        <Route path="/watch" element={<AuctionDetail />} />
       </Routes>
     </BrowserRouter>
   );
